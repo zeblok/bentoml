@@ -12,3 +12,4 @@ python:
     - tensorflow
     - tf2onnx
     - onnxruntime>=1.9
+    - Pillow
