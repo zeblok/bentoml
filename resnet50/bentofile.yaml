@@ -1,0 +1,14 @@
+service: "service:svc"
+labels:
+  owner: akash-sengar
+  stage: demo
+include:
+- "*.py"
+exclude:
+- "locustfile.py"
+python:
+  lock_packages: false
+  packages:
+    - tensorflow
+    - tf2onnx
+    - onnxruntime>=1.9
